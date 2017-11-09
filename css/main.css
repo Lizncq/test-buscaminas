@@ -19,3 +19,7 @@
 .board td:hover {
   background-color: gray;
 }
+input {
+  position: relative;
+  left: 650px;
+}

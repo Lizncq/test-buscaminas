@@ -3,7 +3,7 @@ window.onload = function() {
 
   board.addEventListener('click', addX);
 
-  board.removeEventListener('click', addBgc);
+  /*board.removeEventListener('click', addBgc);*/
 };
 
 var centinel = true;
@@ -17,6 +17,7 @@ function addX(event){
     centinel = !centinel;
   }
 }
+
 
 
 
